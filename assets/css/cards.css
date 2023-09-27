@@ -1,0 +1,105 @@
+.best-seller {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.honey-cards {
+  background-color: rgb(251, 247, 227);
+  border-radius: 40px;
+  margin-top: 1em;
+}
+
+.honey-cards img {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.honey-description :first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.honey-description :nth-child(2) {
+  margin: 0;
+  text-align: center;
+}
+
+.honey-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart p {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(243, 223, 133);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 917px) {
+  .honey-cards {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 977px) {
+  .honey-cards {
+    width: 400px;
+  }
+  .honey-cards img {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .honey-cards {
+    width: 400px;
+  }
+  .honey-cards img {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .honey-cards {
+    width: 270px;
+  }
+  .honey-cards img {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 1748px) {
+  .honey-cards {
+    width: 350px;
+  }
+  .honey-cards img {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .honey-cards {
+    width: 400px;
+  }
+  .honey-cards img {
+    width: 400px;
+  }
+}

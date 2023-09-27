@@ -1,0 +1,23 @@
+h2 {
+  margin: 25px;
+}
+
+article {
+  background-color: rgb(251, 247, 227);
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1300px) {
+  article {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  article img {
+    padding: 20px;
+  }
+}
